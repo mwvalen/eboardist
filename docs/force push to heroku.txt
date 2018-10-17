@@ -1,0 +1,8 @@
+force push to heroku:
+
+https://stackoverflow.com/questions/13756055/git-subtree-subtree-up-to-date-but-cant-push
+
+
+1. git subtree split --prefix <directoryOfApp> master
+returns a long number at the end, copy this number
+2. git push heroku <long number>:master --force

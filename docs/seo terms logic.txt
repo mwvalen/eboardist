@@ -1,0 +1,31 @@
+
+
+{
+	"template" : "top-{value1}-{value2}-electric-{value3}|skateboard",
+	"attributes": [{
+			"name" : "brand",
+			"mappings" : "none",
+			"priority" : "1",
+			"position" : {"location" : "value2",
+					"priority" : "1"}
+			},
+			{"name" : "drive"
+			 "mappings" : [
+				  {"template" : "{value}-motor",
+				   {"custom-values" : [
+						{"value" : "gear-drive",
+						  "template" : "{value}"}
+					]}  
+				]
+			},
+			{"name" : "range"
+			"mappings" : {
+					"only" : ""
+				}
+			}
+			]	
+	
+
+
+
+}

@@ -1,0 +1,8 @@
+heroku logs:
+
+
+first access heroku terminal
+>> heroku run bash
+
+then
+$ heroku logs --tail

@@ -1,0 +1,41 @@
+data adjustments:
+
+
++battery wattage  xxxxx
++wheelbase        xxxxx
++wheel diameter   xxxxx
++trucks material  x
++trucks width     xxxxx
++companion app    x
++charge time      xxxxx
++manufacturer's warranty   xxxxx
+max load xxxxx
+watt hours xxxxx
+volts
+
+ride modes (# different modes)  xxxxx
+hill grade                      xxxxx
+regenerative braking (feature)
+grip tape (feature)
+
+
+remove:
+trucks width
+wheelbase
+battery capacity
+
+
+feature tags:
+waterproof  --> water resistant
+battery removable
+travel safe
+companion app
+remote control
+
+add feature tags to endpoint, filter-options
+
+
+iteration 2:
+
+wheels material
+tail light

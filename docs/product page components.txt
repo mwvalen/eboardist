@@ -1,0 +1,16 @@
+Title
+Main Image
+Additional Images
+Deals List
+Main Specs
+Rest of Specs
+Summary - Pros/Cons/Overall (Later On)
+Rankings - Add to product data (rank in category)
+		--add as endpoint logic, between db fetch and send json
+Reviews - Add to product data
+	Amazon
+	Internal
+	Submit - Add endpoint
+Apply to be an Expert / Contact - Add endpoint  (Later On)
+	
+

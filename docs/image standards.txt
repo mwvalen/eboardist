@@ -1,0 +1,9 @@
+product image standards:
+
+png thumbnail - 60x25ish
+jpg regular view - square, 500x500
+
+logo - 150x150
+
+all square
+

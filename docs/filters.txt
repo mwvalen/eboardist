@@ -1,0 +1,69 @@
+Filter:
+
+Find/Match
+
+Brands,    x  --- to lowercase in DB!! ?? 
+Year,   x
+Price,   
+Range,  x
+Battery Capacity,   x
+Battery Removable,
+Travel Safe,  x
+Speed,  x
+Weight,  x
+Max-Weight,   REMOVED
+Drive,   x  --- lowercase in DB!!
+Width,   x
+Length,   x
+Waterproof  x
+Terrain,  x
+Style,  x
+Deck Materials,  x
+Rating    x
+
+
+lookup deals
+addfield bestPrice
+match price
+addfields discount, popularity
+
+
+sortby:
+
+rating    x
+popularity  x
+price   x
+discount   x
+speed   x
+range   x
+
+skip
+
+
+limit
+
+final lookups for front end
+
+deals.store
+image
+additionalImages
+reviews
+
+
+in endpoint, place as attribute not array
+
+brand
+image
+
+
+
+
+filter-options
+
+use product aggregation pipeline, with options to do as little work as possible for filter
+
+no limit when retrieving products
+
+
+
+text search endpoint

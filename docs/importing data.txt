@@ -1,0 +1,11 @@
+Read in all lines
+
+For each line:
+
+Check if product already exists in DB, by name
+If no:
+	Construct new product based off column name -> Object attributes mapping
+
+If yes:
+	Field by field check
+	If field is a ref, and diff, custom logic in dochanges

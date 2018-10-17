@@ -1,0 +1,42 @@
+deals updating:
+
+to production:
+
+either new deal or updating existing deal
+
+info about each deal on each scrape:
+
+salesPrice
+availability
+checkTime
+
+
+other info, outside of scrape:
+
+salesPrice currency  (store level + convert into user's local?)
+	either different store for every locale, or 
+	different salesPrice + shipping for every locale in deal
+coupon code  (store, or product, level)
+shipping  (store level + user's location)
+
+
+for existing stores, products:
+
+new node express app ONLY for scraping 
+
+new DB, with dealCheck document
+DB is copy of existing DB with added dealCheck
+
+dealCheck:
+
+salesPrice
+availability
+checkTime
+Store
+Product
+url
+document / raw data
+
+
+scrape deals (access url, or api)
+

@@ -1,0 +1,18 @@
+product impressions:
+
+list of impressions applicable to all products
+endpoint to get all impressions
+populate searchable select dropdown
+product has list of submitted impressions, countts
+
+impression: {
+	content: String,
+	connotation: "Positive" || "Negative" || "Neutral",
+	applicableCategories: ex. pennyboards only (do later)
+}
+	
+
+product.impressions {[
+	impression: _id,
+	count: Number 
+]}

@@ -1,0 +1,38 @@
+Endpoints:
+
+	GET /api/products?filterObject
+		returns: { products: [] }
+
+	GET /api/filter-options?filterObject
+		returns: { totalMatching, 
+				externalReviews : { #, Average Rating}, 
+				internalReviews: { #, Average Rating},
+				displayedFilter: {  see stateRepresentation }  }
+
+ 
+	GET /api/products/single?slug=xxxx
+		returns: { product: product (see stateRepresentation) }
+
+	POST /api/review
+		send: 
+		{
+			stars: Number,
+			name: String,
+			body: String
+		} 
+		returns:
+		{
+			success: "true" || "false"
+			review: 
+				{
+					stars: Number,
+					name: String,
+					body: String
+				}
+			||
+			errors: 
+		}
+
+	
+
+	

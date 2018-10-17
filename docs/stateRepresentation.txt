@@ -1,0 +1,83 @@
+State:
+{
+	[Eboards Displayed in List],
+		Eboard : {
+			Brand : {
+				Name, 
+				Slug,
+				Country
+			},
+			Name,
+			Slug,
+			Year,
+			MSRP,
+			[Deals]: {
+				Store: {
+					Name,
+					Logo,
+					URL,
+					ShipsTo 
+				},
+				Product: { ... }
+				Original Price,
+				Actual / Sale Price,
+				Affiliate URL,
+				Last Checked,
+				Availability 
+			},
+			Range (miles),
+			Battery Power (kWh),
+			Speed (mph),
+			Weight (lbs),
+			Max Weight (lbs),
+			Drive - Hub/Belt (String)
+			Width (inches),
+			Length (inches),
+			Waterproof (bool),
+			Terrain ( Road / All ),
+			Style - Longboard, Pennyboard,
+			Ratings: {
+				External: {
+					Average, Total Number
+				},
+				Internal: {
+					Average, Total Number	
+				},
+				Composite Score / 100
+			},
+			Popularity : Sum of Reviews,
+			Value - Price / Adjusted Score
+		} 
+	Total Eboards in DB,
+	Total selected Eboards in filter,
+	Filter : {
+		[Brands],
+		[Years],
+		Price: [Min, Max],
+		Drive,
+		Terrain : "Road" || "All",
+		Board Style : "Longboard" || "Pennyboard",
+		Board Material : ["Wood", "Carbon Fiber", etc.]
+		Width: [Min, Max],
+		Length: [Min, Max],
+		Speed : [Min, Max],
+		Weight : [Min, Max],
+		Range: [Min, Max],
+		Battery Capacity: [Min, Max],
+		Waterproof: boolean,
+		Battery Removable: Boolean,
+		Travel Safe: Boolean,
+		Rating: [Min, Max],
+		SortBy: String - ("Price", "Rating", "MostPopular", "BestValue", "Range", "Speed")
+		Order: "Up" || "Down",
+		NumberProductsPerPage,
+		Page
+	},
+	DisplayedFilter: {
+		Brands: [{Name, Number}],
+		Years: [{Value, Number}],
+		Price: [Min, Max]
+		Drive: [{Value, Number}],
+		...
+		TravelSafe
+	}

@@ -1,0 +1,10 @@
+formula:
+
+until at least 10 recommendations:
+
+50 +  ((diff / total + 1) * 50)
+
+
+after 10 recommendations:
+
+50 + ((diff / total) * 50)

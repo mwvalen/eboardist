@@ -1,0 +1,36 @@
+data ingress:
+
+attributes:
+	skate-compare
+	amazon
+
+	manual entry + custom scrapes amazon, skate-compare
+
+	store as csv
+		csv ----> test database
+		csv ----> production database
+
+price:
+
+	data needed for front end:
+		salesPrice   html element or api call
+		url          manually matched or api call
+		ingressTime  auto generate
+		availability html element or api call or html elements + logic
+		
+		shipping price  manually input rules
+		coupon available
+				
+
+
+	stores
+		actions:
+			perform actions to get html page(s) 
+			download html page(s)
+
+
+reviews:
+	
+
+		
+			

@@ -1,0 +1,80 @@
+product:
+
+
+rating
+biased descriptors
+unbiased descriptors:
+	specs
+
+
+rating:
+	goals:
+		first glance summary
+		comparable
+	what:
+		global score?
+		attribute scores?
+	sources:
+		on-site user star ratings
+		off-site user star ratings
+			amazon
+			retailers list
+			brands sites
+		non-star based text review sentiment scores
+			manually curated forum threads/comments
+			automated scrapes
+			automated generated from on-site content & votes
+
+	** rating over time?
+
+
+
+
+
+biased descriptors:
+	goals:
+		community consensus & participation
+		in depth understanding of experience with product
+		help pick within a short list
+		niche/valuable info
+		
+	what:
+		user reviews
+		capped comments
+		long form reviews
+		votes
+	
+	sources:
+		staff curated from off site
+		user generated
+		"expert" generated
+		automatically curated from off site
+		staff/expert videos
+		off site / guest videos
+		
+
+
+unbiased descriptors:
+	goals:
+		in depth understanding of objective product features
+		unique product landscape/form				
+		all the key info
+	what:
+		specs
+		deals
+		variants
+		
+
+
+
+		off-site user reviews
+		on-site user reviews
+		on-site user short reviews
+		on-site staff long reviews
+		on-site staff reviews
+		on-site staff short reviews			
+
+
+
+
+

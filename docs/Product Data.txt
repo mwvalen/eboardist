@@ -1,0 +1,50 @@
+Product Layout / Components:
+
+Overall Score
+
+Stores:
+	Deal Link
+	Price
+	Sale Price
+	...
+
+Product Attributes / Specs
+	Brand
+	Name
+	Year
+	Price
+	Range
+	Battery Power
+	Battery Removable?
+	Speed
+	Weight
+	Max Weight
+	Drive - Hub/Belt
+	Dimensions - Length / Width
+	Waterproof
+	Terrain
+	Ratings, Overall Score
+	Styles - Pennyboard / Regular / Longboard ,
+	Board Material,
+	Travel Safe
+		
+
+
+
+
+Subjective Analysis
+	Pros/Cons
+
+Rankings compared to other products
+
+Related
+
+Ratings
+	User Submitted Stars
+	Long Form Reviews
+
+Long Description
+
+
+	
+
